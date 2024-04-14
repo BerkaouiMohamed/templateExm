@@ -1,0 +1,44 @@
+.header-container{
+    height: 50px;
+    position: relative;
+    width: 100%;
+    display: flex;;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+}
+
+.header-container .nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    
+}
+
+.header-container .nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.header-container .contact{
+    display: flex;
+    gap: 20px;
+    /* align-items: center; */
+}
+.header-container .contact div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.header-container .contact div svg{
+    width: 20px;
+    height: 20px;
+    fill: blue;
+    stroke-width: 12px;
+    stroke: red;
+
+}
+
